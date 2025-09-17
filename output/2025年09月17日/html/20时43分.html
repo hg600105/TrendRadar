@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-09-17 20:43:44</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">华为</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2147423" target="_blank" class="news-link">增长10万倍！华为预测十年后算力规模 这些需求也有望水涨船高</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时43分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2147586" target="_blank" class="news-link">华为三款旗舰手机降价，华为Mate X6最高降价2000元</a> [10] <font color='grey'>- 20时43分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345070&amp;amp;topic_name=%E5%8D%8E%E4%B8%BA%E9%94%80%E5%86%A0%E6%8D%A2%E4%BA%BA%2C%E5%BA%93%E5%85%8B%E8%92%99%E4%BA%86" target="_blank" class="news-link">华为销冠换人,库克蒙了</a> [11] <font color='grey'>- 20时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">iphone</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone17%E7%B3%BB%E5%88%97%E8%AF%84%E6%B5%8B" target="_blank" class="news-link">iPhone17系列评测</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%87%AA%E5%A6%82%E5%BC%80%E7%AE%B1iPhone17" target="_blank" class="news-link">王自如开箱iPhone17</a> [8] <font color='grey'>- 20时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">小米</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E7%AC%AC%E4%B8%80%E8%BE%86%E5%B0%8F%E7%B1%B3SU7%E5%87%BA%E7%A7%9F%E8%BD%A6%E6%8A%95%E5%85%A5%E8%BF%90%E8%90%A5" target="_blank" class="news-link">全国第一辆小米SU7出租车投入运营</a> [10] <font color='grey'>- 20时43分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345048&amp;amp;topic_name=%E5%B0%8F%E7%B1%B3%E8%83%8C%E5%B1%8F%E7%8E%A9%E5%BE%97%E6%BA%9C%2C%E8%8B%B9%E6%9E%9C%E8%BF%98%E5%9C%A8%E7%94%BB%E5%A4%A7%E9%A5%BC" target="_blank" class="news-link">小米背屏玩得溜,苹果还在画大饼</a> [22] <font color='grey'>- 20时43分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345035&amp;amp;topic_name=%E5%8F%A3%E7%A2%91%E6%BB%91%E9%93%81%E5%8D%A2%2CiOS26%E7%82%AB%E6%8A%80%E5%9D%91%E8%80%81%E6%9C%BA" target="_blank" class="news-link">口碑滑铁卢,iOS26炫技坑老机</a> [30] <font color='grey'>- 20时43分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>bilibili 热搜 (2 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=iPhone17%E7%B3%BB%E5%88%97%E8%AF%84%E6%B5%8B" target="_blank" class="news-link">iPhone17系列评测</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%87%AA%E5%A6%82%E5%BC%80%E7%AE%B1iPhone17" target="_blank" class="news-link">王自如开箱iPhone17</a> [8]</li></ul></div>
+        </body>
+        </html>
+        
